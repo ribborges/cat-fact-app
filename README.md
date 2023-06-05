@@ -15,7 +15,7 @@ Download node.js: <a href="https://nodejs.org/en">link</a>
 Type the command bellow on your terminal:
 
 ```
-npx expo install
+npm install
 ```
 
 Then:
