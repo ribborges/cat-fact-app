@@ -4,10 +4,10 @@ Developed using React Native
 
 ## APIs
 ### CatFact
-<a hrer="https://catfact.ninja/">"CatFact"</a> is a API that gives a random fact about cats.
+<a href="https://catfact.ninja/">"CatFact"</a> is a API that gives a random fact about cats.
 
 ### The Cat API (Cat as a service)
-<a hrer="https://thecatapi.com/">"The Cat API"</a> gives a random image (Static or GIFs) of a cat.
+<a href="https://thecatapi.com/">"The Cat API"</a> gives a random image (Static or GIFs) of a cat.
 
 ## How to run?
 Download node.js: <a href="https://nodejs.org/en">link</a>
