@@ -2,12 +2,20 @@ import { Image, StyleSheet, View } from 'react-native';
 
 export default function CatImage({ source }) {
     return (
-        <View style={styles.imageContainer}>
-            <Image
-                source={{ uri: source }}
-                style={styles.image}
-            />
-        </View>
+        source ?
+            <View style={styles.imageContainer}>
+                <Image
+                    source={{ uri: source }}
+                    style={styles.image}
+                />
+            </View>
+            :
+            <View style={styles.imageContainer}>
+                <Image
+                    source={require('../assets/cat.png')}
+                    style={styles.image}
+                />
+            </View>
     );
 }
 
